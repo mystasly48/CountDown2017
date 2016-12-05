@@ -8,10 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+// 音声：http://soundeffect-lab.info/sound/voice/info-lady1.html
+
 namespace CountDown2017 {
   public partial class Form1 : Form {
     public Form1() {
       InitializeComponent();
+    }
+
+    private void Form1_Load(object sender, EventArgs e) {
+
     }
   }
 }
