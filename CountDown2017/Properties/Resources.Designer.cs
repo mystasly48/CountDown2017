@@ -4,59 +4,222 @@
 //     ランタイム バージョン:4.0.30319.42000
 //
 //     このファイルへの変更は、以下の状況下で不正な動作の原因になったり、
-//     コードが再生成されるときに損失したりします
+//     コードが再生成されるときに損失したりします。
 // </auto-generated>
 //------------------------------------------------------------------------------
 
 namespace CountDown2017.Properties {
-
-
-  /// <summary>
-  ///   ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
-  /// </summary>
-  // このクラスは StronglyTypedResourceBuilder クラスが ResGen
-  // または Visual Studio のようなツールを使用して自動生成されました。
-  // メンバーを追加または削除するには、.ResX ファイルを編集して、/str オプションと共に
-  // ResGen を実行し直すか、または VS プロジェクトをリビルドします。
-  [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
-  [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-  [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-  internal class Resources {
-
-    private static global::System.Resources.ResourceManager resourceMan;
-
-    private static global::System.Globalization.CultureInfo resourceCulture;
-
-    [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-    internal Resources() {
-    }
-
+    using System;
+    
+    
     /// <summary>
-    ///   このクラスで使用されるキャッシュされた ResourceManager インスタンスを返します。
+    ///   ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
     /// </summary>
-    [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-    internal static global::System.Resources.ResourceManager ResourceManager {
-      get {
-        if ((resourceMan == null)) {
-          global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("CountDown2017.Properties.Resources", typeof(Resources).Assembly);
-          resourceMan = temp;
+    // このクラスは StronglyTypedResourceBuilder クラスが ResGen
+    // または Visual Studio のようなツールを使用して自動生成されました。
+    // メンバーを追加または削除するには、.ResX ファイルを編集して、/str オプションと共に
+    // ResGen を実行し直すか、または VS プロジェクトをビルドし直します。
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+    [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+    internal class Resources {
+        
+        private static global::System.Resources.ResourceManager resourceMan;
+        
+        private static global::System.Globalization.CultureInfo resourceCulture;
+        
+        [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
+        internal Resources() {
         }
-        return resourceMan;
-      }
+        
+        /// <summary>
+        ///   このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
+        /// </summary>
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        internal static global::System.Resources.ResourceManager ResourceManager {
+            get {
+                if (object.ReferenceEquals(resourceMan, null)) {
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("CountDown2017.Properties.Resources", typeof(Resources).Assembly);
+                    resourceMan = temp;
+                }
+                return resourceMan;
+            }
+        }
+        
+        /// <summary>
+        ///   厳密に型指定されたこのリソース クラスを使用して、すべての検索リソースに対し、
+        ///   現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
+        /// </summary>
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        internal static global::System.Globalization.CultureInfo Culture {
+            get {
+                return resourceCulture;
+            }
+            set {
+                resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   System.IO.MemoryStream に類似した型 System.IO.UnmanagedMemoryStream のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream _0 {
+            get {
+                return ResourceManager.GetStream("_0", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   System.IO.MemoryStream に類似した型 System.IO.UnmanagedMemoryStream のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream _1 {
+            get {
+                return ResourceManager.GetStream("_1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   System.IO.MemoryStream に類似した型 System.IO.UnmanagedMemoryStream のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream _10 {
+            get {
+                return ResourceManager.GetStream("_10", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   System.IO.MemoryStream に類似した型 System.IO.UnmanagedMemoryStream のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream _10_connect {
+            get {
+                return ResourceManager.GetStream("_10_connect", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   System.IO.MemoryStream に類似した型 System.IO.UnmanagedMemoryStream のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream _2 {
+            get {
+                return ResourceManager.GetStream("_2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   System.IO.MemoryStream に類似した型 System.IO.UnmanagedMemoryStream のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream _2000 {
+            get {
+                return ResourceManager.GetStream("_2000", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   System.IO.MemoryStream に類似した型 System.IO.UnmanagedMemoryStream のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream _3 {
+            get {
+                return ResourceManager.GetStream("_3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   System.IO.MemoryStream に類似した型 System.IO.UnmanagedMemoryStream のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream _4 {
+            get {
+                return ResourceManager.GetStream("_4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   System.IO.MemoryStream に類似した型 System.IO.UnmanagedMemoryStream のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream _5 {
+            get {
+                return ResourceManager.GetStream("_5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   System.IO.MemoryStream に類似した型 System.IO.UnmanagedMemoryStream のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream _6 {
+            get {
+                return ResourceManager.GetStream("_6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   System.IO.MemoryStream に類似した型 System.IO.UnmanagedMemoryStream のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream _7 {
+            get {
+                return ResourceManager.GetStream("_7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   System.IO.MemoryStream に類似した型 System.IO.UnmanagedMemoryStream のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream _8 {
+            get {
+                return ResourceManager.GetStream("_8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   System.IO.MemoryStream に類似した型 System.IO.UnmanagedMemoryStream のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream _9 {
+            get {
+                return ResourceManager.GetStream("_9", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   System.IO.MemoryStream に類似した型 System.IO.UnmanagedMemoryStream のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream countdown {
+            get {
+                return ResourceManager.GetStream("countdown", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   System.IO.MemoryStream に類似した型 System.IO.UnmanagedMemoryStream のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream desu {
+            get {
+                return ResourceManager.GetStream("desu", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   System.IO.MemoryStream に類似した型 System.IO.UnmanagedMemoryStream のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream syuryou_simasita {
+            get {
+                return ResourceManager.GetStream("syuryou_simasita", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   System.IO.MemoryStream に類似した型 System.IO.UnmanagedMemoryStream のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream years_old {
+            get {
+                return ResourceManager.GetStream("years_old", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   System.IO.MemoryStream に類似した型 System.IO.UnmanagedMemoryStream のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream youkoso {
+            get {
+                return ResourceManager.GetStream("youkoso", resourceCulture);
+            }
+        }
     }
-
-    /// <summary>
-    ///   厳密に型指定されたこのリソース クラスを使用して、すべての検索リソースに対し、
-    ///   現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
-    /// </summary>
-    [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-    internal static global::System.Globalization.CultureInfo Culture {
-      get {
-        return resourceCulture;
-      }
-      set {
-        resourceCulture = value;
-      }
-    }
-  }
 }

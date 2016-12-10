@@ -62,6 +62,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -75,6 +76,60 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sound\0.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sound\1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sound\2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sound\3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sound\4.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sound\5.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sound\6.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sound\7.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sound\8.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sound\9.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sound\10.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sound\10_connect.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sound\2000.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sound\countdown.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sound\desu.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sound\syuryou-simasita.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sound\years-old.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sound\youkoso.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
